@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>예시 뷰</title>
+  <title>ModelAndView</title>
 </head>
 <body>
-  <h1 th:text="${message}"></h1>
-  <ul>
-    <li th:each="item : ${items}" th:text="${item}"></li>
-  </ul>
+<h1 th:text="${message}"></h1>
+
+<ul>
+  <li th:each="item : ${items}" th:text="${item}"></li>
+</ul>
 </body>
 </html>
